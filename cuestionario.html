@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de CSS Grid</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <h1>Elaborado por Mauricio Fernando Arce Monsalve </h1>
+    <!-- Barra de navegación -->
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+		 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+		     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+		     aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			   <li class="nav-item">
+				<a class="nav-link " href="Index.html">Inicio</a>				
+			</li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" 
+				    aria-expanded="false">
+				    Nuestros Temas
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="Index.html">Inicio</a></li>
+				  <li><a class="dropdown-item" href="Tema2.html">Tema 2 grid.css</a></li>
+				  <li><a class="dropdown-item" href="audio.html"> Audio</a></li>
+				  
+				  				  
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link " href="audio.html"> Audio</a>
+				
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link " href="Index.html"> Inicio</a>
+				
+			  </li>
+			</ul>
+			
+		  </div>
+		</div>
+	  </nav>
+
+    <!-- Contenido principal -->
+	<main>
+		<article>	
+    <h1>Cuestionario de CSS Grid</h1>
+    <form id="quiz-form">
+      <p>1. ¿Qué es CSS Grid?</p>
+      <input type="radio" name="q1" value="a" required> a) Una técnica para diseñar layouts con CSS.<br>
+      <input type="radio" name="q1" value="b"> b) Un sistema de cuadrícula para dibujar en el navegador.<br>
+      <input type="radio" name="q1" value="c"> c) Una librería de JavaScript para crear gráficos en el navegador.<br><br>
+
+      <p>2. ¿Cuáles son los dos componentes principales de CSS Grid?</p>
+      <input type="radio" name="q2" value="a" required> a) Filas y columnas.<br>
+      <input type="radio" name="q2" value="b"> b) Cajas y contenedores.<br>
+      <input type="radio" name="q2" value="c"> c) Líneas de cuadrícula y celdas.<br><br>
+
+      <p>3. ¿Cómo se define una cuadrícula en CSS Grid?</p>
+      <input type="radio" name="q3" value="a" required> a) Con la propiedad grid-template.<br>
+      <input type="radio" name="q3" value="b"> b) Con la propiedad grid-area.<br>
+      <input type="radio" name="q3" value="c"> c) Con la propiedad grid-row.<br><br>
+
+      <p>4. ¿Cuál es la sintaxis para seleccionar un área en CSS Grid?</p>
+      <input type="radio" name="q4" value="a" required> a) grid-row: start / end; grid-column: start / end;<br>
+      <input type="radio" name="q4" value="b"> b) grid-template-areas: "nombre-del-area";<br>
+      <input type="radio" name="q4" value="c"> c) grid-area: nombre-del-area;<br><br>
+
+      <p>5. ¿Cómo se define el espacio entre filas y columnas en CSS Grid?</p>
+      <input type="radio" name="q5" value="a" required> a) Con la propiedad grid-gap.<br>
+      <input type="radio" name="q5" value="b"> b) Con la propiedad grid-template-rows y grid-template-columns.<br>
+      <input type="radio" name="q5" value="c"> c) Con la propiedad justify-content y align-content.<br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="quiz.js"></script>
+  </aside>
+</main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <a name="ACERCA DE"></a>
+<section>
+    <h2>
+        Acerca de Mi Primera Web en Code GitHub Fase2
+    </h2>
+    <br>
+    <h2> Bienvenido a mi sitio web 2023</h2>
+    <h3>Diseño de Sitio Web - (301122_9) 2023 - Periodo 16-01</h3>
+    <hr>
+    <h4>Mauricio Fernando Arce Monsalve</h4>
+    <h4>Programa: Ingeniaría de sistemas</h4>
+    <h4>fecha de creación: 07/03/2023</h4>
+    <hr>
+    <p>Mis datos de contacto son: <br> 
+       Skype:mau_fernando@hotmail.com <br>
+       Teléfono: 3223252232 - 6076996157 <br>
+       Email:mfarcem@unadvirtual.edu.co <br>
+    </p>
+    <img src="Imagen/unad-ima.jpg" alt="Universidad Avierta y a Distancia">
+</section>
+<li><a href="#Inicio"> volver</a></li>          
+<p>Derechos reservados &copy; 2023</p>
+</footer>
+</body>
+</html>
+

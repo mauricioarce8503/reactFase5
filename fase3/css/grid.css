@@ -1,0 +1,74 @@
+
+		/* Definir la paleta de colores aquí */
+		/* Estilo para la barra de navegación */
+		nav {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr); /* Cambiar el número de columnas según el número de opciones de navegación */
+			background-color: #333;
+			color: #ece5e5;
+			padding: 10px 100px;
+		}
+		
+		/* Estilo para el encabezado */
+		header {
+			text-align: center;
+			background-color: #67a4cc;
+			padding: 50px;
+		}
+		
+		/* Estilo para el aside */
+		aside {
+			background-color: #aebd86;
+			padding: 20px;
+		}
+		
+		/* Estilo para el contenido principal */
+		main {
+			display: grid;
+            background-color: rgb(204, 183, 214);
+			grid-template-columns: 3fr 1fr; /* Cambiar el ancho de las columnas según tus necesidades */
+			grid-gap: 20px;
+			padding: 20px;
+		}
+		
+		/* Estilo para el pie de página */
+		footer {
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			padding: 10px;
+		}
+        nav a{
+			color: white;
+            
+		}
+
+        aside a{
+			grid-template-columns: repeat(4, 1fr); /* Cambiar el número de columnas según el número de opciones de navegación */
+			background-color: #0baf55;
+			color: #d8def0;
+            text-decoration: none;
+            padding: 2px 50px;
+            margin: 2px;
+            display:inline-block;
+        }
+
+		.circulo{
+			width: 200px;
+			height: 200px;
+			background-color: #2E54E0;
+			border-radius: 100%;
+		}
+		.circulo > .Imagen{
+			width: 100%;
+			height: 100%;
+			border-radius: 100%;
+		}
+
+		@media (max-width: 500px) {
+			
+			footer{
+				background-color: coral;
+			}
+
+		}

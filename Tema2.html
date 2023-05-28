@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web en Code GitHub Fase 2 Responsiva con grid.css</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- <style>
+        body{
+            text-align: center;
+
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        background-color: burlywood;
+    }
+    </style> -->
+            
+</head>
+<body>    
+    <!-- Barra de navegación -->
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+		 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+		     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+		     aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" 
+				    aria-expanded="false">
+				    Nuestros Temas
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="Index.html">Inicio</a></li>
+				  <li><a class="dropdown-item" href="audio.html"> Audio</a></li>
+				  <li><a class="dropdown-item" href="cuestionario.html">Cuestionario</a></li>
+				  				  
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link " href="audio.html"> Audio</a>
+				
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link " href="cuestionario.html"> Cuestionario</a>
+				
+			  </li>
+			</ul>
+			
+		  </div>
+		</div>
+	  </nav>
+	
+	
+	<!-- Encabezado -->
+    <header>
+        <h1>Aprendiendo a Diseñar con Grid.Css</h1>        
+        </header>   
+
+    <!-- Aside -->   
+        <aside>
+        <ul>
+            <li><a  class="btn" href="#Inicio"> Inicio </a></li>
+            <li><a  class="btn"href="#Grid.css"> Grid.css </a></li>
+            <li><a  class="btn"href="#mockup"> Mockup </a></li>
+            <li><a  class="btn"href="#ACERCA DE"> Acerca de </a></li>
+            <br>
+           </ul>
+        <br><br><br><br><br><br><br><br><br>
+        <img src="Imagen/imagesmockup1.jpg" alt="Como aplicar grid.css en diseño web">
+        <center><img src="Imagen/imagesmockup.jpg" alt="Como aplicar grid.css en diseño web"></center>
+        <br>
+        <img src="Imagen/css.grid1.jpg" alt="Como aplicar grid.css en diseño web">       
+        <center><img src="Imagen/css.grid2.jpg" alt="Como aplicar grid.css en diseño web"></center>       
+        
+    </aside>        
+    <br><br><br><br><br><br><br>
+
+    <!-- Contenido principal -->
+    <article class="main">
+    <a name="Inicio"></a>    
+    <section >
+        <h2>
+            <center> Inicio Sobre Grid.css</center>
+        </h2>
+        <br>
+        <p>Durante en el desarrollo de sitio web, en la fase 2 realizaremos una investigación del tema seleccionado de
+            la guía componente practico, que el cual es Grid. css, hablaremos de sus funciones y caracteristicas de estilos de diseños en
+            realizar en letras en fondos de la pagina bordes etc, estos estilos nos facilitara para que se adapte a la pagina en reducción,
+            en app, en controlar tabla en donde nos permitirá código estandarizado que sea aplicable a los navegadores, en donde ira de la
+            mano con css en cada estilo.
+
+            Aplicaremos un body, un contenedor parte de estilos que mostraremos en la pagina.
+        </p>
+       <center><img src="Imagen/grid2.jfif" alt="Como aplicar grid.css en diseño web"></center>
+    </section>
+    <center><li><a href="#Inicio">volver</a></li></center>
+    <br><br><br>
+    <!--Esta es la seccion del tema seleccionado-->
+        
+    <a name="Grid.css"></a>
+    <section>
+        <h2>
+            <center>Que es Grid.css</center>
+        </h2>
+        <br>
+        <p>CSS grid layout Ir a la navegación Ir a la búsqueda CSS grid layout o CSS grid es una técnica de las Hojas de Estilo en
+            Cascada que permite a los desarrolladores web crear diseños complejos y adaptables con mayor facilidad en
+            todos los navegadores.
+            Ha habido otros métodos para controlar los métodos de diseño de páginas web, como las tablas, el modelo de
+            caja, y CSS flex.
+            CSS grid no es actualmente un estándar oficial (es una W3C Candidate Recommendation) aunque ha sido adoptada
+            por la mayoría de los principales navegadores.
+            <br>
+            <center><h3>Motivación.</h3></center>
+        <br>
+       <p>CSS grid puede crear diseños más asimétricos como el layout anterior y opciones de diseño como CSS floats.
+        También permite un código más estandarizado que funciona en todos los navegadores.
+        Esto es en contraste con confiar en los atajos específicos de los navegadores o en complicadas soluciones.</p>
+        <br>
+        <p>problema con la explotación de floats en CSS es que si el contenido se añade a una parte de la página podría
+        interrumpir el flujo de la página y romper el diseño. Esto se debe a las diferentes alturas de los elementos de
+        diseño.
+        Aunque CSS flex soporta diseños flexibles y proporciona la flexibilidad de crear diseños complejos, falla cuándo
+        surge la necesidad de crear diseños sensibles en un espacio bidimensional.</p>
+        <br>
+        <center><h3>Soporte en navegadores</h3></center>
+        <br>
+        <p>A partir de octubre de 2017, Chrome, Firefox, Safari y Edge soportan CSS grid sin prefijos.soportan CSS grid
+        pero con una especificación obsoleta.
+        En móviles, todos los navegadores modernos soportan CSS grid excepto Opera Mini y UC Browser. Los
+        desarrolladores web orientados a navegadores más antiguos pueden utilizar Modernizr 3.5.0 para detectar y degradar con gracia la página web
+        según sea necesario.</p> 
+        <br>
+        <center><h3>Utilización en frameworks</h3></center>
+        <br>
+        <p>No hay frameworks web que incorporen CSS grid en contraste con CSS flex que se utiliza en frameworks como
+        Bootstrap 4 y Foundation 6</p> 
+        <br>
+        <center><h3>La unidad fr</h3></center>
+        <br>
+        <p>La unidad fr se utiliza a menudo con el diseño de grid.La unidad fr, que forma parte de la especificación de la
+        disposición de CSS grid, representa una fracción del espacio sobrante en el contenedor grid.</p> 
+        <br>
+        Ejemplo del<br>
+        <center><li><a href="https://es.wikipedia.org/w/index.php?title=Santo_grail_(dise%C3%B1o_web)&action=edit&redlink=1">
+                holy grail layout</a></li></center>
+        <center><img src="Imagen/grid1.jfif" alt="Referente a diseño grid.css"></center>
+    </section>
+    <center><li><a href="#Inicio"> volver</a></li></center>
+    <br><br><br>
+    
+    <a name="mockup"></a>
+    <section>
+        <center> <h2>
+            Mockup de la pagina
+        </h2></center>
+        <br>
+        <p>Un mockup, traducido del inglés como bosquejo, es un fotomontaje a través del cual los diseñadores gráficos pueden 
+           presentar sus propuestas a los clientes. Los mockups cuentan con muchos uso. No sólo sirven para presentar las propuestas
+           del diseño de logos.</p>
+           <center><img src="Imagen/mockuppagina.jpg" alt="Imagen de cito web mockup"></center>
+    </section>
+    <center><li><a href="#Inicio"> volver</a></li></center>
+    <br><br><br>        
+    </article>
+
+     <!-- Pie de página -->
+     <footer class="footer">
+        <a name="ACERCA DE"></a>
+    <section>
+        <h2>
+            Acerca de Mi Primera Web en Code GitHub Fase2
+        </h2>
+        <br>
+        <h2> Bienvenido a mi sitio web 2023</h2>
+        <h3>Diseño de Sitio Web - (301122_9) 2023 - Periodo 16-01</h3>
+        <hr>
+        <h4>Mauricio Fernando Arce Monsalve</h4>
+        <h4>Programa: Ingeniaría de sistemas</h4>
+        <h4>fecha de creación: 07/03/2023</h4>
+        <hr>
+        <p>Mis datos de contacto son: <br> 
+           Skype:mau_fernando@hotmail.com <br>
+           Teléfono: 3223252232 - 6076996157 <br>
+           Email:mfarcem@unadvirtual.edu.co <br>
+        </p>
+        <img src="Imagen/unad-ima.jpg" alt="Universidad Avierta y a Distancia">
+    </section>
+    <li><a href="#Inicio"> volver</a></li>          
+    <p>Derechos reservados &copy; 2023</p>
+    </footer>
+    </body>
+
+</html>
