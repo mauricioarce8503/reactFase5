@@ -33,7 +33,7 @@ Teléfono: 3223252232 - 6076996157
 Email:mfarcem@unadvirtual.edu.co
 </center></h3>
       </p>
-      <a class="nav-link " href="Index1.html">Ir a la pagina de Inicio</a>	
+      <a class="nav-link " href="Tema1.html">Ir a la pagina de Inicio</a>	
     </>
   )
 }
